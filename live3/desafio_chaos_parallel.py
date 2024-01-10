@@ -132,10 +132,12 @@ if __name__ == "__main__":
             lista_threads.append(thread)
             # Iniciamos a execucao da thread
             thread.start()
-        print(f"Terminei de baixar os itens da {plataforma}")
+        
         # Aguarda o status de encerramento das threads abertas
         for thread in lista_threads:
             thread.join()
+        
+        print(f"Terminei de baixar os itens da {plataforma}")
 
         # Extrai o conteudo dos arquivos zip da plataforma
         unzip_and_read_text_files(plataforma=plataforma)
