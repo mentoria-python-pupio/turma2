@@ -195,9 +195,9 @@ for item in dados:
 
 # DESAFIO:
         
-1 - Fazer download de todos os zips que contenham bounty e exista uma plataforma
-2 - Salvar o zip numa pasta da plataforma: Ex: yeswehack > arquivo1.zip ... arquivox.zip
-3 - Extrair os arquivos zip e consolidar todos os txts em um unico com todas as URLS
-4 - Remover as urls duplicadas e ordenar por ordem alfabetica
+# 1 - Fazer download de todos os zips que contenham bounty e exista uma plataforma
+# 2 - Salvar o zip numa pasta da plataforma: Ex: yeswehack > arquivo1.zip ... arquivox.zip
+# 3 - Extrair os arquivos zip e consolidar todos os txts em um unico com todas as URLS
+# 4 - Remover as urls duplicadas e ordenar por ordem alfabetica
 
 
